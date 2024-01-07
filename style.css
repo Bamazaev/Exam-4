@@ -1,0 +1,64 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  font-family: montserrat;
+}
+
+.main-contener {
+  width: 100%;
+  height: 400vh;
+  background-image: url("./image/фон — копия.jpg");
+}
+.main-contener .main {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.main-contener .main .main1 {
+  width: 40%;
+  height: 200vh;
+  border-radius: 10px;
+  border: 2px solid rgba(225, 225, 225, 0.2);
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 30px 40px;
+  text-align: center;
+}
+.main-contener .main .main1 img {
+  width: 100%;
+}
+.main-contener .main .main2 {
+  width: 80%;
+  border-radius: 10px;
+  border: 2px solid rgba(225, 225, 225, 0.2);
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 30px 40px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .main .main1 {
+    margin: auto;
+  }
+  .main .main1 h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .main .main2 {
+    margin: auto;
+  }
+}/*# sourceMappingURL=style.css.map */
